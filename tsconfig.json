@@ -1,0 +1,24 @@
+{
+  "extends": "./tsconfig.options.json",
+  "files": [],
+  "references": [
+    {
+      "path": "./frontend/vue-app/tsconfig.json"
+    },
+    {
+      "path": "./packages/serverless-configuration/tsconfig.build.json"
+    },
+    {
+      "path": "./services/theme-park-ride-times/tsconfig.json"
+    },
+    {
+      "path": "./services/theme-park-backend/tsconfig.json"
+    },
+    {
+      "path": "./services/photos/tsconfig.json"
+    },
+    {
+      "path": "./services/outages/tsconfig.json"
+    }
+  ]
+}
